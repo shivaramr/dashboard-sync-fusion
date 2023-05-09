@@ -1,4 +1,3 @@
-import React from "react";
 import {
   GridComponent,
   ColumnsDirective,
@@ -6,11 +5,11 @@ import {
   Search,
   Page,
   Inject,
-  Toolbar
+  Toolbar,
 } from "@syncfusion/ej2-react-grids";
 
-import { employeesData, employeesGrid } from "../data/dummy";
 import { Header } from "../components";
+import { employeesData, employeesGrid } from "../data/dummy";
 
 const Employees = () => {
   return (
@@ -19,7 +18,7 @@ const Employees = () => {
       <GridComponent
         dataSource={employeesData}
         allowPaging
-        toolbar={['Search']}
+        toolbar={["Search"]}
         width="auto"
       >
         <ColumnsDirective>
@@ -27,13 +26,7 @@ const Employees = () => {
             <ColumnDirective key={index} {...item} />
           ))}
         </ColumnsDirective>
-        <Inject
-          services={[
-            Search,
-            Page,
-            Toolbar
-          ]}
-        />
+        <Inject services={[Search, Page, Toolbar]} />
       </GridComponent>
     </div>
   );
