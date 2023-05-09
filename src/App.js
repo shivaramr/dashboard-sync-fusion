@@ -92,7 +92,6 @@ const App = () => {
                 <Navbar />
               </div>
             )}
-
             <>
               {themeSettings && <ThemeSettings />}
               <Routes>
