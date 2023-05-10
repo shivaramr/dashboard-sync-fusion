@@ -1,4 +1,3 @@
-import React from "react";
 import {
   ScheduleComponent,
   Day,
@@ -11,8 +10,8 @@ import {
   DragAndDrop,
 } from "@syncfusion/ej2-react-schedule";
 
-import { scheduleData } from "../data/dummy";
 import { Header } from "../components";
+import { scheduleData } from "../data/dummy";
 
 const Calendar = () => {
   return (
