@@ -1,4 +1,3 @@
-import React from "react";
 import { GoPrimitiveDot } from "react-icons/go";
 
 import { Stacked, Button, SparkLine } from "../components";
