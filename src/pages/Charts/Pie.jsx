@@ -1,4 +1,3 @@
-import React from "react";
 import { Header, Pie as PieChart } from "../../components";
 import { pieChartData } from "../../data/dummy";
 
