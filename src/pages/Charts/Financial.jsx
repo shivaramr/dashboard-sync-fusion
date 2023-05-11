@@ -1,4 +1,3 @@
-import React from "react";
 import {
   ChartComponent,
   SeriesCollectionDirective,
@@ -12,13 +11,13 @@ import {
   Crosshair,
 } from "@syncfusion/ej2-react-charts";
 
+import { Header } from "../../components";
 import {
   financialChartData,
   FinancialPrimaryXAxis,
   FinancialPrimaryYAxis,
 } from "../../data/dummy";
 import { useStateContext } from "../../contexts/ContextProvider";
-import { Header } from "../../components";
 
 const date1 = new Date("2017, 1, 1");
 
