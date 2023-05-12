@@ -1,4 +1,3 @@
-import React from "react";
 import { MdOutlineCancel } from "react-icons/md";
 import { BsCheck } from "react-icons/bs";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
@@ -7,7 +6,9 @@ import { themeColors } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
 
 const ThemeSettings = () => {
-  const {setColor,setMode,currentMode,currentColor,setThemeSettings}=useStateContext();
+  const { setColor, setMode, currentMode, currentColor, setThemeSettings } =
+    useStateContext();
+
   return (
     <div className="bg-half-transparent w-screen fixed nav-item top-0 right-0">
       <div className="float-right h-screen dark:bg-secondary-dark-bg dark:text-gray-200 bg-white dark:[#484B52] w-400">
@@ -32,7 +33,7 @@ const ThemeSettings = () => {
               value="Light"
               className="cursor-pointer"
               onChange={setMode}
-              checked={currentMode==="Light"}
+              checked={currentMode === "Light"}
             />
             <label htmlFor="light" className="ml-2 text-md cursor-pointer">
               Light
@@ -46,7 +47,7 @@ const ThemeSettings = () => {
               value="Dark"
               className="cursor-pointer"
               onChange={setMode}
-              checked={currentMode==="Dark"}
+              checked={currentMode === "Dark"}
             />
             <label htmlFor="dark" className="ml-2 text-md cursor-pointer">
               Dark
@@ -71,7 +72,7 @@ const ThemeSettings = () => {
                   >
                     <BsCheck
                       className={`ml-2 text-2xl text-white ${
-                        item.color===currentColor ? "block" : "hidden"
+                        item.color === currentColor ? "block" : "hidden"
                       }`}
                     />
                   </button>
