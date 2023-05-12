@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
@@ -98,7 +98,10 @@ const App = () => {
                 {isAuth ? (
                   <>
                     {/* Dashboard */}
-                    <Route path="/" element={<Ecommerce />} />
+                    <Route
+                      path="/"
+                      element={<Navigate to="/ecommerce" replace />}
+                    />
                     <Route path="/ecommerce" element={<Ecommerce />} />
                     {/* Pages */}
                     <Route path="/orders" element={<Orders />} />
