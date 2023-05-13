@@ -1,4 +1,3 @@
-import React from "react";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { SiShopware } from "react-icons/si";
 import { HiInformationCircle } from "react-icons/hi";
