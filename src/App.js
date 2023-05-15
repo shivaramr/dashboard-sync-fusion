@@ -2,11 +2,9 @@ import { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-
 import { Navbar, Sidebar, ThemeSettings } from "./components";
 import { Login } from "./pages";
 import { useStateContext } from "./contexts/ContextProvider";
-
 import { routes } from "./routes";
 import "./App.css";
 
