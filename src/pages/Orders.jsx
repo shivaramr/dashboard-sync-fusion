@@ -12,7 +12,6 @@ import {
   Edit,
   Inject,
 } from "@syncfusion/ej2-react-grids";
-
 import { Header } from "../components";
 import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
 
