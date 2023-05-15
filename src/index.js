@@ -1,5 +1,4 @@
 import ReactDOM from "react-dom";
-
 import { ContextProvider } from "./contexts/ContextProvider";
 import App from "./App";
 import "./index.css";
