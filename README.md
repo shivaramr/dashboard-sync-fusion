@@ -3,6 +3,7 @@
 This is a dashboard built using React.js, Syncfusion, and Tailwind CSS. It provides a user-friendly interface for data visualization and management. The charts, calendar, kanban etc.. developed using syncfusion are very easy to integrate and developer friendly to make and update changes.
 
 You can have a look at the demo of this website at: https://www.youtube.com/watch?v=tKiva6KAp6w
+
 This website was developed refering to the tutorial: https://www.youtube.com/watch?v=jx5hdo50a2M
 ## Features
 
