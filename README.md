@@ -34,6 +34,12 @@ Here are some screenshots of the dashboard:
 ![Dashboard Screenshot 3](/public/assets/line_chart.jpg)
 ![Dashboard Screenshot 4](/public/assets/pie_chart.jpg)
 
+![Dashboard Screenshot 1](https://github.com/shivaramr/dashboard-sync-fusion/assets/85446156/ba9a6d7f-b82c-484c-87f1-c9ec2480a9ca)
+![Dashboard Screenshot 2](https://github.com/shivaramr/dashboard-sync-fusion/assets/85446156/d709f1a1-9d52-4bf9-a04f-bdbf41fcddc3)
+![Dashboard Screenshot 3](https://github.com/shivaramr/dashboard-sync-fusion/assets/85446156/a4357bd7-6aed-45e6-8f46-8e0f67af12c1)
+![Dashboard Screenshot 4](https://github.com/shivaramr/dashboard-sync-fusion/assets/85446156/77ca3462-046d-4dea-b694-7ace3595dc0e)
+
+
 ## Usage
 To use the dashboard, follow these steps:
 1. Open a web browser and navigate to 'http://localhost:3000'
