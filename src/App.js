@@ -65,7 +65,7 @@ const App = () => {
           )}
           <div
             className={`dark:bg-main-dark-bg bg-main-bg min-h-screen w-full ${
-              activeMenu ? (isAuth ? "lg:ml-72" : "pl-auto lg:pl-72") : "flex-2"
+              activeMenu ? (isAuth ? "lg:ml-72" : "") : "flex-2"
             }`}
           >
             {isAuth && (
